@@ -233,7 +233,7 @@ const drawShip = (num, x, y) => {
 const background = document.querySelector('.background');
 
 const shot = () => {
-    if(shooted) return;
+    //if(shooted) return;
     shooted = true;
     background.style.background = `url('./img/shot.png')`;
     setTimeout(() => {
